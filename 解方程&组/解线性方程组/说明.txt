@@ -1,0 +1,7 @@
+bicg、cgs、lsqr和minres函数都是用来求解线性方程组的迭代函数，它们可以处理大规模的稀疏矩阵，并且可以使用预条件子矩阵来加速收敛。
+bicg、cgs、lsqr和minres函数的用途和区别有以下几点：
+
+bicg函数是双共轭梯度法（Bi-Conjugate Gradient method）的缩写，它可以求解对称或非对称线性方程组，但是可能出现不规则的收敛行为或不收敛的情况。
+cgs函数是共轭梯度平方法（Conjugate Gradient Squared method）的缩写，它是bicg函数的一种变体，它可以求解非对称线性方程组，但是比bicg函数更稳定和更快。
+lsqr函数是最小二乘残差法（Least Squares Residual method）的缩写，它可以求解对称或非对称线性方程组，或者最小化Ax-b的范数，它适用于具有最小范数解或无穷多解的情况。
+minres函数是最小残差法（Minimum Residual method）的缩写，它可以求解对称正定或不定线性方程组，或者最小化Ax-b的范数，它适用于具有唯一解或无穷多解的情况。

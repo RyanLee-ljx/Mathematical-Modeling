@@ -1,0 +1,6 @@
+1.讲解及例子及程序  
+https://blog.csdn.net/ywsydwsbn/article/details/123609409?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522169217529616777224465881%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=169217529616777224465881&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-2-123609409-null-null.142^v92^chatgptT0_1&utm_term=%E9%A9%AC%E5%B0%94%E7%A7%91%E5%A4%AB%E9%93%BEmatlab&spm=1018.2226.3001.4187
+
+其中推到k步概率的时候用到了柯尔莫哥洛夫——开普曼定理P463
+
+2.马尔科夫链关键：根据已知数据或者适当的转移规则，求出转移矩阵→证明正则性→求出极限概率分布
